@@ -1,0 +1,26 @@
+[
+  {
+    "ID": "json_001",
+    "imagem": "Robot-girl.jpg",
+    "texto": "Texto usando a fonte padrão do template",
+    "fonte": null
+  },
+  {
+    "ID": "json_002",
+    "imagem": "japan-art.jpg",
+    "texto": "Texto usando uma fonte especial!",
+    "fonte": "sao.otf"
+  },
+  {
+    "ID": "json_003",
+    "imagem": "Robot-girl.jpg",
+    "texto": "Outro texto, usando fonte padrão",
+    "fonte": ""
+  },
+  {
+    "ID": "json_004",
+    "imagem": "exemplo_alinhamento.png",
+    "texto": "Um teste de fonte override no template de alinhamento",
+    "fonte": "sao.ttf"
+  }
+]
