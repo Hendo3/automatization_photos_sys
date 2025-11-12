@@ -1,0 +1,11 @@
+[
+  {
+    "output_pdf": "TESTE.pdf",
+    "input_pdf_base": "claudia.pdf",
+    "pagina_frente": {
+      "template_imagem": "claudia_template",
+      "texto": "TESTE",
+      "fonte": null
+    }
+  }
+]
