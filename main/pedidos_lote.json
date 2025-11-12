@@ -1,26 +1,53 @@
 [
   {
-    "ID": "json_001",
-    "imagem": "Robot-girl.jpg",
-    "texto": "Texto usando a fonte padrão do template",
-    "fonte": null
+    "output_pdf": "livia.pdf",
+    "paginas": [
+      {
+         "ID": "livia",
+         "imagem": "Robot-girl.jpg",
+         "texto": "Livia",
+         "fonte": "sao.ttf"
+      },
+      {
+         "ID": "002",
+        "imagem": "japan-art.jpg",
+        "texto": null,
+        "fonte": null
+      }
+    ]
   },
   {
-    "ID": "json_002",
-    "imagem": "japan-art.jpg",
-    "texto": "Texto usando uma fonte especial!",
-    "fonte": "sao.otf"
+    "output_pdf": "Roberto.pdf",
+    "paginas": [
+      {
+         "ID": "Jose",
+         "imagem": "Robot-girl.jpg",
+         "texto": "Roberto",
+         "fonte": "sao.ttf"
+      },
+      {
+         "ID": "002",
+        "imagem": "japan-art.jpg",
+        "texto": "Página 2: Contra-Capa",
+        "fonte": null
+      }
+    ]
   },
   {
-    "ID": "json_003",
-    "imagem": "Robot-girl.jpg",
-    "texto": "Outro texto, usando fonte padrão",
-    "fonte": ""
-  },
-  {
-    "ID": "json_004",
-    "imagem": "exemplo_alinhamento.png",
-    "texto": "Um teste de fonte override no template de alinhamento",
-    "fonte": "sao.ttf"
+    "output_pdf": "claudia.pdf",
+    "paginas": [
+      {
+         "ID": "001",
+         "imagem": "Robot-girl.jpg",
+         "texto": "claudia",
+         "fonte": "sao.ttf"
+      },
+      {
+         "ID": "002",
+        "imagem": "japan-art.jpg",
+        "texto": "Página 2: Contra-Capa",
+        "fonte": null
+      }
+    ]
   }
 ]
