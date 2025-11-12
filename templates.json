@@ -1,0 +1,24 @@
+{
+    "Robot-girl.jpg": {
+        "comment": "Template para a garota robot.",
+        "pos_x": 80,
+        "pos_y": 600,
+        "max_width_pixels": 900,
+        "font_name": "sao.ttf",
+        "font_size": 70,
+        "color": "#FF00FF",
+        "align": "left",
+        "max_lines": 2
+    },
+    "japan-art.jpg": {
+        "comment": "Template para a arte japonesa.",
+        "pos_x": 1000,
+        "pos_y": 1500,
+        "max_width_pixels": 3000,
+        "font_name": "sao.otf",
+        "font_size": 500,
+        "color": "#9A0E2A",
+        "align": "center",
+        "max_lines": 3
+    }
+}
