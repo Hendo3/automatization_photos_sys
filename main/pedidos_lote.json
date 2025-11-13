@@ -1,0 +1,53 @@
+[
+  {
+    "output_pdf": "livia.pdf",
+    "paginas": [
+      {
+         "ID": "livia",
+         "imagem": "Robot-girl.jpg",
+         "texto": "Livia",
+         "fonte": "sao.ttf"
+      },
+      {
+         "ID": "002",
+        "imagem": "japan-art.jpg",
+        "texto": null,
+        "fonte": null
+      }
+    ]
+  },
+  {
+    "output_pdf": "Roberto.pdf",
+    "paginas": [
+      {
+         "ID": "Jose",
+         "imagem": "Robot-girl.jpg",
+         "texto": "Roberto",
+         "fonte": "sao.ttf"
+      },
+      {
+         "ID": "002",
+        "imagem": "japan-art.jpg",
+        "texto": "Página 2: Contra-Capa",
+        "fonte": null
+      }
+    ]
+  },
+  {
+    "output_pdf": "claudia.pdf",
+    "paginas": [
+      {
+         "ID": "001",
+         "imagem": "Robot-girl.jpg",
+         "texto": "claudia",
+         "fonte": "sao.ttf"
+      },
+      {
+         "ID": "002",
+        "imagem": "japan-art.jpg",
+        "texto": "Página 2: Contra-Capa",
+        "fonte": null
+      }
+    ]
+  }
+]
