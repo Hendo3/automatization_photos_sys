@@ -1,0 +1,21 @@
+# --- LIXO DO SISTEMA E COMPILAÇÃO ---
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.spec
+
+# --- AMBIENTES E LOGS ---
+.venv/
+venv/
+*.log
+app_debug.log
+
+# --- ARQUIVOS TEMPORÁRIOS DO SEU PROJETO ---
+temp_pdf_extract/
+output/
+
+# --- ARQUIVOS DE SISTEMA ---
+.vscode/
+.DS_Store
+Thumbs.db

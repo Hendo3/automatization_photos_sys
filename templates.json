@@ -1,0 +1,702 @@
+{
+  "Isis Rosa Personalizados_template": {
+    "comment": "Template para Isis Rosa Personalizados_template",
+    "pos_x": 337,
+    "pos_y": 1243,
+    "max_width_pixels": 1842,
+    "font_name": "School Friend Demo - FONTE PARA NOME.ttf.ttf",
+    "font_size": 400,
+    "color": "#ffffff",
+    "align": "center"
+  },
+  "Abelhas Personalizados_template": {
+    "comment": "Template para Abelhas Personalizados_template",
+    "pos_x": 187,
+    "pos_y": 1152,
+    "max_width_pixels": 2126,
+    "font_name": "Autography.otf.otf",
+    "font_size": 350,
+    "color": "#e7ad9f",
+    "align": "center"
+  },
+  "Arco Íris Anna Laura Personalizados_template": {
+    "comment": "Template para Arco Íris Anna Laura Personalizados_template",
+    "pos_x": 414,
+    "pos_y": 2279,
+    "max_width_pixels": 1621,
+    "font_name": "Photoshoot.otf.otf",
+    "font_size": 157,
+    "color": "#c3a28c",
+    "align": "center"
+  },
+  "Arco Íris Clean Personalizados_template": {
+    "comment": "Template para Arco Íris Clean Personalizados_template",
+    "pos_x": 346,
+    "pos_y": 743,
+    "max_width_pixels": 1788,
+    "font_name": "Balada.otf.otf",
+    "font_size": 300,
+    "color": "#f180a6",
+    "align": "center"
+  },
+  "Arco Íris Delicado Personalizados_template": {
+    "comment": "Template para Arco Íris Delicado Personalizados_template",
+    "pos_x": 409,
+    "pos_y": 2387,
+    "max_width_pixels": 1671,
+    "font_name": "TIDELINES REGULAR.OTF.OTF",
+    "font_size": 216,
+    "color": "#8c725e",
+    "align": "center"
+  },
+  "Arco Íris Personalizados_template": {
+    "comment": "Template para Arco Íris Personalizados_template",
+    "pos_x": 656,
+    "pos_y": 2389,
+    "max_width_pixels": 1199,
+    "font_name": "Alstoria.ttf.ttf",
+    "font_size": 350,
+    "color": "#866454",
+    "align": "center"
+  },
+  "Arco Íris Rosa Personalizados_template": {
+    "comment": "Template para Arco Íris Rosa Personalizados_template",
+    "pos_x": 364,
+    "pos_y": 2319,
+    "max_width_pixels": 1743,
+    "font_name": "School Friend Demo - FONTE PARA NOME.ttf.ttf",
+    "font_size": 350,
+    "color": "#c87a7f",
+    "align": "center"
+  },
+  "Astronauta Azul Personalizados_template": {
+    "comment": "Template para Astronauta Azul Personalizados_template",
+    "pos_x": 369,
+    "pos_y": 2063,
+    "max_width_pixels": 1743,
+    "font_name": "Baby Girly.otf.otf",
+    "font_size": 290,
+    "color": "#cb951c",
+    "align": "center"
+  },
+  "Betina Personalizados_template": {
+    "comment": "Template para Betina Personalizados_template",
+    "pos_x": 193,
+    "pos_y": 968,
+    "max_width_pixels": 2117,
+    "font_name": "Spalding .otf",
+    "font_size": 300,
+    "color": "#b484b8",
+    "align": "center"
+  },
+  "Borboletas Catarina Personalizados_template": {
+    "comment": "Template para Borboletas Catarina Personalizados_template",
+    "pos_x": 85,
+    "pos_y": 770,
+    "max_width_pixels": 2301,
+    "font_name": "Bontella Script.otf.otf",
+    "font_size": 600,
+    "color": "#f0ccca",
+    "align": "center"
+  },
+  "Borboletas Jardim Personalizados_template": {
+    "comment": "Template para Borboletas Jardim Personalizados_template",
+    "pos_x": 441,
+    "pos_y": 1603,
+    "max_width_pixels": 1684,
+    "font_name": "Melanie FONTE TITULO.otf.otf",
+    "font_size": 350,
+    "color": "#ee9ac4",
+    "align": "center"
+  },
+  "Cavalinho de Balanco Menina Personalizados_template": {
+    "comment": "Template para Cavalinho de Balanco Menina Personalizados_template",
+    "pos_x": 333,
+    "pos_y": 2315,
+    "max_width_pixels": 1797,
+    "font_name": "ANZELIA.TTF.TTF",
+    "font_size": 270,
+    "color": "#9a5a49",
+    "align": "center"
+  },
+  "Cogumelos Personalizados_template": {
+    "comment": "Template para Cogumelos Personalizados_template",
+    "pos_x": 527,
+    "pos_y": 1689,
+    "max_width_pixels": 1666,
+    "font_name": "Belanda.otf.otf",
+    "font_size": 300,
+    "color": "#bf423a",
+    "align": "center"
+  },
+  "Flora Lilás Personalizados_template": {
+    "comment": "Template para Flora Lilás Personalizados_template",
+    "pos_x": 226,
+    "pos_y": 1397,
+    "max_width_pixels": 2043,
+    "font_name": "Belanda.otf.otf",
+    "font_size": 230,
+    "color": "#ffffff",
+    "align": "center"
+  },
+  "Flora Verde Personalizados_template": {
+    "comment": "Template para Flora Verde Personalizados_template",
+    "pos_x": 184,
+    "pos_y": 1409,
+    "max_width_pixels": 2126,
+    "font_name": "Belanda.otf.otf",
+    "font_size": 230,
+    "color": "#ffffff",
+    "align": "center"
+  },
+  "Floral Personalizados_template": {
+    "comment": "Template para Floral Personalizados_template",
+    "pos_x": 193,
+    "pos_y": 1225,
+    "max_width_pixels": 2103,
+    "font_name": "Beatrica.ttf.ttf",
+    "font_size": 400,
+    "color": "#e2b2c1",
+    "align": "center"
+  },
+  "Floral Xadrez Personalizados_template": {
+    "comment": "Template para Floral Xadrez Personalizados_template",
+    "pos_x": 333,
+    "pos_y": 1054,
+    "max_width_pixels": 1819,
+    "font_name": "Autography.otf.otf",
+    "font_size": 340,
+    "color": "#cdb0cb",
+    "align": "center"
+  },
+  "Flores E Borboletas Personalizados_template": {
+    "comment": "Template para Flores E Borboletas Personalizados_template",
+    "pos_x": 90,
+    "pos_y": 1382,
+    "max_width_pixels": 2297,
+    "font_name": "Beatrica.ttf.ttf",
+    "font_size": 370,
+    "color": "#ecba9b",
+    "align": "center"
+  },
+  "Floresta Personalizados_template": {
+    "comment": "Template para Floresta Personalizados_template",
+    "pos_x": 373,
+    "pos_y": 2594,
+    "max_width_pixels": 1806,
+    "font_name": "angrela-display.otf.otf",
+    "font_size": 300,
+    "color": "#eda07d",
+    "align": "center"
+  },
+  "Helicóptero Personalizados_template": {
+    "comment": "Template para Helicóptero Personalizados_template",
+    "pos_x": 430,
+    "pos_y": 2235,
+    "max_width_pixels": 1656,
+    "font_name": "Anime.otf.otf",
+    "font_size": 150,
+    "color": "#7d756f",
+    "align": "center"
+  },
+  "Heloísa Personalizados_template": {
+    "comment": "Template para Heloísa Personalizados_template",
+    "pos_x": 569,
+    "pos_y": 1487,
+    "max_width_pixels": 1379,
+    "font_name": "BEVENIDA LIGHT.OTF.OTF",
+    "font_size": 300,
+    "color": "#d47f86",
+    "align": "center"
+  },
+  "Jardim Encantado Personalizados_template": {
+    "comment": "Template para Jardim Encantado Personalizados_template",
+    "pos_x": 166,
+    "pos_y": 725,
+    "max_width_pixels": 2121,
+    "font_name": "Bontella Script.otf.otf",
+    "font_size": 400,
+    "color": "#ee9ac4",
+    "align": "center"
+  },
+  "Jardim da Bella Personalizados_template": {
+    "comment": "Template para Jardim da Bella Personalizados_template",
+    "pos_x": 977,
+    "pos_y": 1540,
+    "max_width_pixels": 1265,
+    "font_name": "Hey Magnolia fonte nome.otf.otf",
+    "font_size": 200,
+    "color": "#d45675",
+    "align": "center"
+  },
+  "Leaozinho Personalizados_template": {
+    "comment": "Template para Leaozinho Personalizados_template",
+    "pos_x": 324,
+    "pos_y": 2288,
+    "max_width_pixels": 1806,
+    "font_name": "ANZELIA.TTF.TTF",
+    "font_size": 250,
+    "color": "#673f1d",
+    "align": "center"
+  },
+  "Linho Aurora Personalizados_template": {
+    "comment": "Template para Linho Aurora Personalizados_template",
+    "pos_x": 279,
+    "pos_y": 851,
+    "max_width_pixels": 1914,
+    "font_name": "Theater Brillion.ttf.ttf",
+    "font_size": 450,
+    "color": "#ad5a6e",
+    "align": "center"
+  },
+  "Linho Menino Personalizados_template": {
+    "comment": "Template para Linho Menino Personalizados_template",
+    "pos_x": 292,
+    "pos_y": 833,
+    "max_width_pixels": 1873,
+    "font_name": "Theater Brillion.ttf.ttf",
+    "font_size": 450,
+    "color": "#54636c",
+    "align": "center"
+  },
+  "Margarida Amélia Lilás Personalizados_template": {
+    "comment": "Template para Margarida Amélia Lilás Personalizados_template",
+    "pos_x": 265,
+    "pos_y": 1018,
+    "max_width_pixels": 1941,
+    "font_name": "Guardian Circus.ttf.ttf",
+    "font_size": 400,
+    "color": "#a89da8",
+    "align": "center"
+  },
+  "Margarida Rosa Personalizados_template": {
+    "comment": "Template para Margarida Rosa Personalizados_template",
+    "pos_x": 282,
+    "pos_y": 1415,
+    "max_width_pixels": 1933,
+    "font_name": "Daydream dafont free.ttf",
+    "font_size": 400,
+    "color": "#ffffff",
+    "align": "center"
+  },
+  "Margarida Rosa V2 Personalizados_template": {
+    "comment": "Template para Margarida Rosa V2 Personalizados_template",
+    "pos_x": 180,
+    "pos_y": 1171,
+    "max_width_pixels": 2126,
+    "font_name": "Guardian Circus.ttf.ttf",
+    "font_size": 400,
+    "color": "#9f7937",
+    "align": "center"
+  },
+  "Margaridas Olívia Personalizados_template": {
+    "comment": "Template para Margaridas Olívia Personalizados_template",
+    "pos_x": 301,
+    "pos_y": 1409,
+    "max_width_pixels": 1891,
+    "font_name": "Madelyn.ttf.ttf",
+    "font_size": 400,
+    "color": "#c79a77",
+    "align": "center"
+  },
+  "Menina no Balanço Personalizados_template": {
+    "comment": "Template para Menina no Balanço Personalizados_template",
+    "pos_x": 1158,
+    "pos_y": 2492,
+    "max_width_pixels": 1071,
+    "font_name": "Monthing.otf.otf",
+    "font_size": 250,
+    "color": "#e67eab",
+    "align": "center"
+  },
+  "Minnie Baby Personalizados_template": {
+    "comment": "Template para Minnie Baby Personalizados_template",
+    "pos_x": 337,
+    "pos_y": 1036,
+    "max_width_pixels": 1788,
+    "font_name": "Monthing.otf.otf",
+    "font_size": 250,
+    "color": "#f156b2",
+    "align": "center"
+  },
+  "Pelucinha Rosa Personalizados_template": {
+    "comment": "Template para Pelucinha Rosa Personalizados_template",
+    "pos_x": 653,
+    "pos_y": 2360,
+    "max_width_pixels": 1828,
+    "font_name": "ALINE SIGNATURE WOFF.OTF.OTF",
+    "font_size": 200,
+    "color": "#e7c0c3",
+    "align": "center"
+  },
+  "Safari Menino Personalizados_template": {
+    "comment": "Template para Safari Menino Personalizados_template",
+    "pos_x": 738,
+    "pos_y": 969,
+    "max_width_pixels": 1066,
+    "font_name": "Eigha Demo.otf.otf",
+    "font_size": 250,
+    "color": "#968979",
+    "align": "center"
+  },
+  "Tartaruga Menina Personalizados_template": {
+    "comment": "Template para Tartaruga Menina Personalizados_template",
+    "pos_x": 382,
+    "pos_y": 2405,
+    "max_width_pixels": 1774,
+    "font_name": "BUTTER AND GARLIC.TTF.TTF",
+    "font_size": 400,
+    "color": "#8b57a6",
+    "align": "center"
+  },
+  "Ursinho no Avião Personalizados_template": {
+    "comment": "Template para Ursinho no Avião Personalizados_template",
+    "pos_x": 210,
+    "pos_y": 1456,
+    "max_width_pixels": 1230,
+    "font_name": "Theater Brillion.ttf.ttf",
+    "font_size": 350,
+    "color": "#b5cdcd",
+    "align": "center"
+  },
+  "Verde C Listras Personalizados_template": {
+    "comment": "Template para Verde C Listras Personalizados_template",
+    "pos_x": 936,
+    "pos_y": 2202,
+    "max_width_pixels": 1144,
+    "font_name": "Alexandia Script Font.otf.otf",
+    "font_size": 200,
+    "color": "#9d9f85",
+    "align": "right"
+  },
+  "Z - Brunna - Caderneta_template": {
+    "comment": "Template para Z - Brunna - Caderneta_template",
+    "pos_x": 1219,
+    "pos_y": 987,
+    "max_width_pixels": 867,
+    "font_name": "boutiera-regular.otf.otf",
+    "font_size": 240,
+    "color": "#7e5a5b",
+    "align": "center"
+  },
+  "Z - Caderneta Minimalista_template": {
+    "comment": "Template para Z - Caderneta Minimalista_template",
+    "pos_x": 382,
+    "pos_y": 2450,
+    "max_width_pixels": 1716,
+    "font_name": "adelia.otf.otf",
+    "font_size": 240,
+    "color": "#c36a72",
+    "align": "center"
+  },
+  "Z - Floral Azul_template": {
+    "comment": "Template para Z - Floral Azul_template",
+    "pos_x": 319,
+    "pos_y": 2355,
+    "max_width_pixels": 1779,
+    "font_name": "Bacalisties.ttf.ttf",
+    "font_size": 300,
+    "color": "#00393f",
+    "align": "center"
+  },
+  "Z - Floral Rosa_template": {
+    "comment": "Template para Z - Floral Rosa_template",
+    "pos_x": 283,
+    "pos_y": 2234,
+    "max_width_pixels": 1891,
+    "font_name": "Bacalisties.ttf.ttf",
+    "font_size": 300,
+    "color": "#261a18",
+    "align": "center"
+  },
+  "Z - Gestante Floral_template": {
+    "comment": "Template para Z - Gestante Floral_template",
+    "pos_x": 369,
+    "pos_y": 2513,
+    "max_width_pixels": 1752,
+    "font_name": "alika-misely.ttf.ttf",
+    "font_size": 300,
+    "color": "#ffffff",
+    "align": "center"
+  },
+  "Z - Gestante Flores Rosa_template": {
+    "comment": "Template para Z - Gestante Flores Rosa_template",
+    "pos_x": 1009,
+    "pos_y": 1220,
+    "max_width_pixels": 1247,
+    "font_name": "chalala.ttf.ttf",
+    "font_size": 300,
+    "color": "#484428",
+    "align": "center"
+  },
+  "Z - Gestante Lilás_template": {
+    "comment": "Template para Z - Gestante Lilás_template",
+    "pos_x": 342,
+    "pos_y": 2468,
+    "max_width_pixels": 1806,
+    "font_name": "Bacalisties.ttf.ttf",
+    "font_size": 300,
+    "color": "#fcfcfc",
+    "align": "center"
+  },
+  "Z - Gestante Ruiva_template": {
+    "comment": "Template para Z - Gestante Ruiva_template",
+    "pos_x": 292,
+    "pos_y": 756,
+    "max_width_pixels": 1887,
+    "font_name": "Bacalisties.ttf.ttf",
+    "font_size": 300,
+    "color": "#7f0b18",
+    "align": "center"
+  },
+  "Z - Gestante V2_template": {
+    "comment": "Template para Z - Gestante V2_template",
+    "pos_x": 310,
+    "pos_y": 1842,
+    "max_width_pixels": 1851,
+    "font_name": "Bacalisties.ttf.ttf",
+    "font_size": 300,
+    "color": "#ffffff",
+    "align": "center"
+  },
+  "Z - Gestante_template": {
+    "comment": "Template para Z - Gestante_template",
+    "pos_x": 310,
+    "pos_y": 1837,
+    "max_width_pixels": 1873,
+    "font_name": "Bacalisties.ttf.ttf",
+    "font_size": 300,
+    "color": "#ffffff",
+    "align": "center"
+  },
+  "Z - Mamãe Azul_template": {
+    "comment": "Template para Z - Mamãe Azul_template",
+    "pos_x": 328,
+    "pos_y": 2238,
+    "max_width_pixels": 1837,
+    "font_name": "Bacalisties.ttf.ttf",
+    "font_size": 270,
+    "color": "#ffffff",
+    "align": "center"
+  },
+  "Z - Silvia_template": {
+    "comment": "Template para Z - Silvia_template",
+    "pos_x": 297,
+    "pos_y": 2346,
+    "max_width_pixels": 1896,
+    "font_name": "Bacalisties.ttf.ttf",
+    "font_size": 300,
+    "color": "#d088aa",
+    "align": "center"
+  },
+  "Z - Vestido Branco Versão 2_template": {
+    "comment": "Template para Z - Vestido Branco Versão 2_template",
+    "pos_x": 292,
+    "pos_y": 2292,
+    "max_width_pixels": 1891,
+    "font_name": "Bacalisties.ttf.ttf",
+    "font_size": 300,
+    "color": "#ffffff",
+    "align": "center"
+  },
+  "Z - Vestido Branco_template": {
+    "comment": "Template para Z - Vestido Branco_template",
+    "pos_x": 324,
+    "pos_y": 2306,
+    "max_width_pixels": 1864,
+    "font_name": "Bacalisties.ttf.ttf",
+    "font_size": 300,
+    "color": "#ffffff",
+    "align": "center"
+  },
+  "ZZ - Floral_template": {
+    "comment": "Template para ZZ - Floral_template",
+    "pos_x": 1049,
+    "pos_y": 2265,
+    "max_width_pixels": 977,
+    "font_name": "Autography.otf.otf",
+    "font_size": 350,
+    "color": "#e7ad9f",
+    "align": "center"
+  },
+  "Leaozinho alfabeto_template": {
+    "comment": "Template para Leaozinho alfabeto_template",
+    "pos_x": 171,
+    "pos_y": 2351,
+    "max_width_pixels": 2130,
+    "font_name": "Belanda.otf.otf",
+    "font_size": 180,
+    "color": "#848688",
+    "align": "center"
+  },
+  "Alfabeto Borboleta_template": {
+    "comment": "Template para Alfabeto Borboleta_template",
+    "pos_x": 202,
+    "pos_y": 2360,
+    "max_width_pixels": 2103,
+    "font_name": "PROMISES (1).OTF.OTF",
+    "font_size": 300,
+    "color": "#aa8e6d",
+    "align": "center"
+  },
+  "Ravi_template": {
+    "comment": "Template para Ravi_template",
+    "pos_x": 490,
+    "pos_y": 2450,
+    "max_width_pixels": 1837,
+    "font_name": "larianti.otf.otf",
+    "font_size": 100,
+    "color": "#4e7b70",
+    "align": "center"
+  },
+  "Bosque_template": {
+    "comment": "Template para Bosque_template",
+    "pos_x": 932,
+    "pos_y": 2567,
+    "max_width_pixels": 1139,
+    "font_name": "NOME.otf.otf",
+    "font_size": 350,
+    "color": "#a8865f",
+    "align": "center"
+  },
+  "Margarida Rosa Acentuado_template": {
+    "comment": "Template para Margarida Rosa Acentuado_template",
+    "pos_x": 288,
+    "pos_y": 1436,
+    "max_width_pixels": 1941,
+    "font_name": "Acentuaçao.otf",
+    "font_size": 600,
+    "color": "#ffffff",
+    "align": "center"
+  },
+  "Alfabeto Floral Fofo Personalizados_template": {
+    "comment": "Template para Alfabeto Floral Fofo Personalizados_template",
+    "pos_x": 619,
+    "pos_y": 1070,
+    "max_width_pixels": 1351,
+    "font_name": "Autography.otf.otf",
+    "font_size": 350,
+    "color": "#e7ad9f",
+    "align": "center"
+  },
+  "Linho Azul Personalizados_template": {
+    "comment": "Template para Linho Azul Personalizados_template",
+    "pos_x": 166,
+    "pos_y": 1752,
+    "max_width_pixels": 2126,
+    "font_name": "Belanda.otf.otf",
+    "font_size": 250,
+    "color": "#ffffff",
+    "align": "center"
+  },
+  "Dino Baby Personalizados_template": {
+    "comment": "Template para Dino Baby Personalizados_template",
+    "pos_x": 180,
+    "pos_y": 1369,
+    "max_width_pixels": 2108,
+    "font_name": "Donuts & Cookies.otf.otf",
+    "font_size": 250,
+    "color": "#f0f19f",
+    "align": "center"
+  },
+  "Linho Lara Personalizados_template": {
+    "comment": "Template para Linho Lara Personalizados_template",
+    "pos_x": 540,
+    "pos_y": 2256,
+    "max_width_pixels": 1765,
+    "font_name": "larianti.otf",
+    "font_size": 80,
+    "color": "#ff66c4",
+    "align": "center"
+  },
+  "Linho Lilás Personalizados_template": {
+    "comment": "Template para Linho Lilás Personalizados_template",
+    "pos_x": 180,
+    "pos_y": 1801,
+    "max_width_pixels": 2126,
+    "font_name": "Yearlong_DEMO.otf.otf",
+    "font_size": 212,
+    "color": "#543f63",
+    "align": "center"
+  },
+  "Flores Eloá Personalizados_template": {
+    "comment": "Template para Flores Eloá Personalizados_template",
+    "pos_x": 175,
+    "pos_y": 2234,
+    "max_width_pixels": 2135,
+    "font_name": "Cream Candy.otf.otf",
+    "font_size": 290,
+    "color": "#c1ad4b",
+    "align": "center"
+  },
+  "Maitê Rosa Personalizados_template": {
+    "comment": "Template para Maitê Rosa Personalizados_template",
+    "pos_x": 184,
+    "pos_y": 1536,
+    "max_width_pixels": 2130,
+    "font_name": "Insta Story Signature.ttf.ttf",
+    "font_size": 150,
+    "color": "#efcfe8",
+    "align": "center"
+  },
+  "Libélula Personalizados_template": {
+    "comment": "Template para Libélula Personalizados_template",
+    "pos_x": 207,
+    "pos_y": 1423,
+    "max_width_pixels": 2112,
+    "font_name": "Shantine.otf.otf",
+    "font_size": 180,
+    "color": "#997f4f",
+    "align": "center"
+  },
+  "Ana Liz Personalizados_template": {
+    "comment": "Template para Ana Liz Personalizados_template",
+    "pos_x": 207,
+    "pos_y": 2527,
+    "max_width_pixels": 2081,
+    "font_name": "Agreable Script Demo.ttf",
+    "font_size": 234,
+    "color": "#cf6474",
+    "align": "center"
+  },
+  "Maya_template": {
+    "comment": "Template para Maya_template",
+    "pos_x": 180,
+    "pos_y": 1491,
+    "max_width_pixels": 2126,
+    "font_name": "Billion Miracles.otf.otf",
+    "font_size": 330,
+    "color": "#b4aba1",
+    "align": "center"
+  },
+  "Linho Rosa_template": {
+    "comment": "Template para Linho Rosa_template",
+    "pos_x": 180,
+    "pos_y": 1288,
+    "max_width_pixels": 2126,
+    "font_name": "Yearlong_DEMO.otf.otf",
+    "font_size": 230,
+    "color": "#bd7292",
+    "align": "center"
+  },
+  "Cavalinho de Balanco Menino_template": {
+    "comment": "Template para Cavalinho de Balanco Menino_template",
+    "pos_x": 198,
+    "pos_y": 2828,
+    "max_width_pixels": 1991,
+    "font_name": "Hatfielin.otf.otf",
+    "font_size": 200,
+    "color": "#ab8f73",
+    "align": "center"
+  },
+  "Ficha_Editavel_template": {
+    "comment": "Gerado pelo Editor para Ficha_Editavel_template",
+    "pos_x": 240,
+    "pos_y": 2126,
+    "max_width_pixels": 1957,
+    "font_size": 120,
+    "font_name": "Open Sans Light.ttf",
+    "color": "#ff0000",
+    "align": "center"
+  }
+}

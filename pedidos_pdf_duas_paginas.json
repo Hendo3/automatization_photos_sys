@@ -1,0 +1,11 @@
+[
+  {
+    "output_pdf": "aaaaa.pdf",
+    "input_pdf_base": "Ficha_Editavel.pdf",
+    "pagina_frente": {
+      "template_imagem": "Ficha_Editavel_template",
+      "texto": "aaaaa",
+      "fonte": "Open Sans Light.ttf"
+    }
+  }
+]
