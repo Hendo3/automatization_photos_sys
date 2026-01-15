@@ -111,3 +111,6 @@ def attach_scrollable_dropdown(widget, values, command=None, height=200):
     
     for child in widget.winfo_children():
         child.bind("<Button-1>", open_dropdown, add="+")
+        
+def enable_scrollable_dropdown(widget, values, command=None, height=200):
+    attach_scrollable_dropdown(widget, values, command, height)

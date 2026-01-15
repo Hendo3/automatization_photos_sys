@@ -1,11 +1,13 @@
 [
   {
-    "output_pdf": "aaaaa.pdf",
+    "output_pdf": "a.pdf",
     "input_pdf_base": "Ficha_Editavel.pdf",
     "pagina_frente": {
-      "template_imagem": "Ficha_Editavel_template",
-      "texto": "aaaaa",
-      "fonte": "Open Sans Light.ttf"
+      "template_imagem": "Isis Rosa Personalizados_template",
+      "texto": "a",
+      "fonte": "Open Sans Light.ttf",
+      "imagem_arquivo": null,
+      "imagem_full_page": false
     }
   }
 ]
