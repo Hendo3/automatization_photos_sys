@@ -83,7 +83,7 @@ def organize_output():
     # 2. Copia Pastas Essenciais (Fonts, Pictures, Templates)
     # Isso é necessário porque seu config.py usa APP_ROOT (externo) para facilitar edição
     dirs_to_copy = ["fonts", "pictures"]
-    files_to_copy = ["templates.json", "pedidos_pdf_duas_paginas.json"]
+    files_to_copy = ["templates.json", "pedidos_pdf_duas_paginas.json", "LICENSE"]
 
     for d in dirs_to_copy:
         src = WORK_DIR / d
