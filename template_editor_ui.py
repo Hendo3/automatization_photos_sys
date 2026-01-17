@@ -3,11 +3,12 @@ import logging
 from pathlib import Path
 from tkinter import colorchooser, messagebox
 
-# --- Módulos da Arquitetura ---
-import config
 import customtkinter as ctk
 import fitz  # PyMuPDF
 from PIL import Image, ImageDraw, ImageFont, ImageTk
+
+# --- Módulos da Arquitetura ---
+import config
 from schemas_validator import validate_data
 
 # Configura logger centralizado
@@ -200,7 +201,7 @@ class TemplateEditorApp(ctk.CTk):
         """Extrai em alta resolução (300DPI) para servir de base."""
         try:
             doc = fitz.open(pdf_path)
-            page = doc[0]
+            page = doc.load_page(0)
             # 300 DPI = ~4.16x escala (72dpi base)
             pix = page.get_pixmap(matrix=fitz.Matrix(300/72, 300/72))
             self.original_pil_image = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
@@ -324,7 +325,8 @@ class TemplateEditorApp(ctk.CTk):
     def _on_canvas_click(self, event):
         self.rect_start_x = event.x
         self.rect_start_y = event.y
-        if self.rect_id: self.canvas.delete(self.rect_id)
+        if self.rect_id is not None:
+            self.canvas.delete(self.rect_id)
         # Cria retângulo visual (vermelho) temporário
         self.rect_id = self.canvas.create_rectangle(event.x, event.y, event.x, event.y, outline="red", width=2)
 
@@ -356,7 +358,8 @@ class TemplateEditorApp(ctk.CTk):
         self.max_width.set(str(real_w))
         
         # Remove o retângulo vermelho pois agora o preview vai desenhar o texto e a caixa azul
-        self.canvas.delete(self.rect_id)
+        if self.rect_id is not None:
+            self.canvas.delete(self.rect_id)
         self.rect_id = None
 
     # --- Ações de Controle ---

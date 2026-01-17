@@ -1,8 +1,9 @@
 import json
 import logging
 
-import config  # Importa o config robusto
 from jsonschema import ValidationError, validate
+
+import config  # Importa o config robusto
 
 # Configura o logger (vai herdar o nível DEBUG se -v for passado)
 logger = config.setup_logging(__name__)

@@ -10,6 +10,13 @@ dist/
 venv/
 *.log
 app_debug.log
+*.ico
+*png
+output/
+pictures/
+
+
+# --- ARQUIVOS DE CONFIGURAÇÃO LOCAL ---
 
 # --- ARQUIVOS TEMPORÁRIOS DO SEU PROJETO ---
 temp_pdf_extract/
@@ -19,3 +26,5 @@ output/
 .vscode/
 .DS_Store
 Thumbs.db
+
+templates.json
