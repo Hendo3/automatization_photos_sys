@@ -1,5 +1,7 @@
 import json
 import logging
+import re
+import unicodedata
 from pathlib import Path
 from tkinter import colorchooser, messagebox
 
@@ -160,15 +162,16 @@ class TemplateEditorApp(ctk.CTk):
     def _refresh_file_lists(self):
         # Listar PDFs
         config.ensure_directories()
-        pdfs = sorted([f.name for f in config.DIR_PICTURES.iterdir() if f.suffix.lower() == '.pdf'])
+        pdfs = sorted([f.name for f in config.DIR_PDF.iterdir() if f.suffix.lower() == '.pdf'])
         if pdfs:
             self.pdf_menu.configure(values=pdfs)
             self.selected_pdf.set(pdfs[0])
             self._on_pdf_change(pdfs[0])
         else:
-            self.pdf_menu.configure(values=["(Sem PDFs em /pictures)"])
+            self.pdf_menu.configure(values=["(Sem PDFs em /input/pdf)"])
 
         # Listar Fontes
+        
         fonts = sorted([f.name for f in config.DIR_FONTS.iterdir() if f.suffix.lower() in ('.ttf', '.otf')])
         if fonts:
             self.font_menu.configure(values=fonts)
@@ -188,12 +191,39 @@ class TemplateEditorApp(ctk.CTk):
         if not choice or choice.startswith("("): return
         
         # Tenta carregar o template se já existir para este PDF
-        potential_id = Path(choice).stem + "_template"
-        self.template_id_var.set(potential_id)
-        if potential_id in self.templates_data:
-            self._load_template_data_into_ui(self.templates_data[potential_id])
+        stem = Path(choice).stem
+        potential_id = stem + "_template"
 
-        pdf_path = config.DIR_PICTURES / choice
+        # 1) match literal
+        chosen_id = potential_id if potential_id in self.templates_data else None
+
+        # 2) match normalizado (tolerante a espaço/underscore/acentos)
+        if chosen_id is None:
+            def _norm_key(s: str) -> str:
+                s = (s or "").strip().lower()
+                s = unicodedata.normalize("NFKD", s)
+                s = "".join(ch for ch in s if not unicodedata.combining(ch))
+                s = re.sub(r"[\s\-]+", "_", s)
+                s = re.sub(r"[^a-z0-9_]+", "", s)
+                s = re.sub(r"_+", "_", s).strip("_")
+                return s
+
+            k = _norm_key(stem)
+            for tid in self.templates_data.keys():
+                base = re.sub(r"_template$", "", str(tid), flags=re.IGNORECASE)
+                base = re.sub(r"personalizados", "", base, flags=re.IGNORECASE).strip()
+                if _norm_key(base) == k:
+                    chosen_id = str(tid)
+                    break
+
+        if chosen_id:
+            self.template_id_var.set(chosen_id)
+            if chosen_id in self.templates_data:
+                self._load_template_data_into_ui(self.templates_data[chosen_id])
+        else:
+            self.template_id_var.set(potential_id)
+
+        pdf_path = config.DIR_PDF / choice
         self._extract_pdf_high_res(pdf_path)
         self._update_display_image()
 
@@ -237,7 +267,8 @@ class TemplateEditorApp(ctk.CTk):
 
         # 3. Configura a fonte
         font_path = config.DIR_FONTS / font_file
-        if not font_path.exists(): font_path = config.DIR_FONTS / config.DEFAULT_FONT_NAME
+        if not font_path.exists():
+            font_path = config.DIR_FONTS / getattr(config, "FALLBACK_FONT", config.DEFAULT_FONT_NAME)
         
         try:
             font = ImageFont.truetype(str(font_path), size)

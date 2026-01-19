@@ -30,15 +30,15 @@ def find_app_root():
         candidates.append(("__file__", p))
 
     # --- TESTE DA PASTA FONTS ---
-    # A pasta 'fonts' é nossa âncora. Só aceitamos o caminho se ela existir lá.
+    # Nova estrutura: a âncora é 'input/fonts'. Só aceitamos o caminho se ela existir lá.
     
     final_path = None
     
     for method, path in candidates:
-        fonts_path = path / "fonts"
+        fonts_path = path / "input" / "fonts"
         exists = fonts_path.exists()
         print(f"[{method}] Testando: {path}")
-        print(f"   -> Pasta 'fonts' existe aqui? {'SIM! ✅' if exists else 'NÃO ❌'}")
+        print(f"   -> Pasta 'input/fonts' existe aqui? {'SIM! ✅' if exists else 'NÃO ❌'}")
         
         if exists and final_path is None:
             final_path = path
@@ -55,21 +55,31 @@ def find_app_root():
 
 APP_ROOT = find_app_root()
 
-# --- DIRETÓRIOS ---
-DIR_FONTS = APP_ROOT / "fonts"
-DIR_PICTURES = APP_ROOT / "pictures"
+# --- DIRETÓRIOS (nova estrutura) ---
+DIR_INPUT = APP_ROOT / "input"
+DIR_FONTS = DIR_INPUT / "fonts"
+DIR_PDF = DIR_INPUT / "pdf"
+DIR_PICTURES = DIR_INPUT / "pictures"
+
 DIR_OUTPUT = APP_ROOT / "output"
 DIR_TEMP = APP_ROOT / "temp_pdf_extract"
 
 # --- ARQUIVOS ---
 FILE_TEMPLATES_CONFIG = APP_ROOT / "templates.json"
 FILE_PEDIDOS_DATA = APP_ROOT / "pedidos_pdf_duas_paginas.json"
+FILE_TEMPLATE_MAP = APP_ROOT / "template_map.json"
 FILE_LOG = APP_ROOT / "app_debug.log"
 
 # --- CONSTANTES ---
 UI_THEME_MODE = "Dark"
 UI_COLOR_THEME = "blue"
-DEFAULT_FONT_NAME = "Open Sans Light.ttf"
+# DEFAULT_FONT: chave padrão dentro do templates.json
+# FALLBACK_FONT: arquivo usado quando a fonte do template/override falhar
+DEFAULT_FONT = "font_name"
+FALLBACK_FONT = "FreeMono.otf"
+
+# Compatibilidade: código legado usa DEFAULT_FONT_NAME
+DEFAULT_FONT_NAME = FALLBACK_FONT
 IS_VERBOSE = True
 
 # --- LOGGING ---
@@ -91,7 +101,10 @@ def setup_logging(name):
 # --- UTILITÁRIOS ---
 def ensure_directories():
     try:
+        DIR_INPUT.mkdir(parents=True, exist_ok=True)
         DIR_FONTS.mkdir(parents=True, exist_ok=True)
+        DIR_PDF.mkdir(parents=True, exist_ok=True)
         DIR_PICTURES.mkdir(parents=True, exist_ok=True)
         DIR_OUTPUT.mkdir(parents=True, exist_ok=True)
-    except: pass
+    except:
+        pass

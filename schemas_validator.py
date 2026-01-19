@@ -27,7 +27,11 @@ TEMPLATE_SCHEMA = {
                     "type": "string",
                     "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
                 },
-                "align": {"type": "string", "enum": ["left", "center", "right"]}
+                "align": {"type": "string", "enum": ["left", "center", "right"]},
+
+                # Opcional: pasta dentro de /input/pictures a ser usada pelo template
+                # Ex.: "Ana_Liz" ou "Alfabeto_Borboleta"
+                "pictures_folder": {"type": ["string", "null"]}
             }
         }
     }
@@ -47,11 +51,19 @@ PEDIDOS_SCHEMA = {
                 "properties": {
                     "template_imagem": {"type": "string", "minLength": 1},
                     "texto": {"type": "string"},
-                    "fonte": {"type": ["string", "null"]}
-                }
-            }
-        }
-    }
+                    "fonte": {"type": ["string", "null"]},
+
+                    # NOVO: override de tamanho de fonte (opcional)
+                    "tamanho_fonte": {"type": ["integer", "null"], "minimum": 1},
+
+                    # Já usados no JSON atual
+                    "imagem_arquivo": {"type": ["string", "null"]},
+                    "imagem_auto": {"type": ["string", "null"]},
+                    "imagem_full_page": {"type": "boolean"},
+                },
+            },
+        },
+    },
 }
 
 # --- FUNÇÃO DE VALIDAÇÃO COM VERBOSE ---

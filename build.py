@@ -61,7 +61,8 @@ def build_exe(script_name, exe_name, icon_name="app_icon.ico"):
 def organize_output():
     """
     O PyInstaller --onefile cria o EXE, mas seu config.py espera encontrar
-    as pastas 'fonts' e 'pictures' AO LADO do executável para serem editáveis.
+    a pasta 'input' (com 'fonts', 'pictures', 'pdf') AO LADO do executável
+    para serem editáveis.
     Esta função prepara a pasta final para você zipar e mandar pro cliente.
     """
     print("\n--- Organizando Pasta de Entrega ---")
@@ -80,10 +81,15 @@ def organize_output():
                     shutil.move(str(exe), str(FINAL_DIR / exe.name))
                 except: pass
 
-    # 2. Copia Pastas Essenciais (Fonts, Pictures, Templates)
+    # 2. Copia Pastas Essenciais (Nova estrutura: input/*)
     # Isso é necessário porque seu config.py usa APP_ROOT (externo) para facilitar edição
-    dirs_to_copy = ["fonts", "pictures"]
-    files_to_copy = ["templates.json", "pedidos_pdf_duas_paginas.json", "LICENSE"]
+    dirs_to_copy = ["input"]
+    files_to_copy = [
+        "templates.json",
+        "pedidos_pdf_duas_paginas.json",
+        "template_map.json",
+        "LICENSE",
+    ]
 
     for d in dirs_to_copy:
         src = WORK_DIR / d
